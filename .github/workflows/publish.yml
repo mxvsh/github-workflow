@@ -11,11 +11,11 @@ jobs:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Building Package
         working-directory: ./dist
-        run: yarn build
+        run: npm run build
       - name: Publishing
         run: npm publish
         env:
