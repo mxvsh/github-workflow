@@ -1,0 +1,18 @@
+{
+  "name": "@xencodes/github-workflow-test",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/xencodes/github-workflow",
+  "author": "xencodes <xencodes@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "telegraf": "^4.4.0"
+  }
+}
