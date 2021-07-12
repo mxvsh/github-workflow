@@ -1,3 +1,1 @@
-import { GithubTest } from "./bot/main";
-
-export { GithubTest };
+export const SayHello = (name: string) => `Hello, ${name}`;

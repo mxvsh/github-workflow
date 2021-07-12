@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "repository": "https://github.com/xencodes/github-workflow",
   "author": "xencodes <xencodes@icloud.com>",
@@ -11,8 +11,5 @@
   "devDependencies": {
     "tsc": "^2.0.3",
     "typescript": "^4.3.5"
-  },
-  "dependencies": {
-    "telegraf": "^4.4.0"
   }
 }
