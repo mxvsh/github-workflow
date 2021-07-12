@@ -15,10 +15,10 @@ jobs:
           npm install
 
       - name: Building Package
-        working-directory: ./dist
         run: |
           npm run build
       - name: Publishing
+        working-directory: ./dist
         run: |
           npm publish
         env:
