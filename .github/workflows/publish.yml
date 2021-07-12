@@ -12,11 +12,11 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install Dependencies
         run: yarn install
-        
+
       - name: Building Package
         working-directory: ./dist
         run: yarn build
-      - name: Publishing 
-        - run: npm publish
-            env:
-              NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publishing
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
